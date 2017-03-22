@@ -10,5 +10,5 @@ class WMServicesPallet(Pallet):
      destination_workspace = path.join(r'W:\\GISServices\\test', "ForkliftTest.gdb")
      source_workspace = path.join(self.garage, 'Viewer_TrustPub@tla-gis.sde')
 
-     self.add_crate('Counties', {'source_workspace': source_workspace,
+     self.add_crate('Contract_OilShale', {'source_workspace': source_workspace,
                               'destination_workspace': destination_workspace})
