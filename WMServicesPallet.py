@@ -4,7 +4,7 @@ from os import path
 class WMServicesPallet(Pallet):
   def __init__(self):
      #: this is required to initialize the Pallet base class properties
-     super(MyPallet, self).__init__()
+     super(WMServicesPallet, self).__init__()
 
   def build(self, configuration):
      destination_workspace = path.join(r'W:\\GISServices\\test', 'ForkliftTest.gdb')
