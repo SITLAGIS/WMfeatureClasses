@@ -6,8 +6,8 @@ class WMServicesPallet(Pallet):
      #: this is required to initialize the Pallet base class properties
      super(MyPallet, self).__init__()
 
-  def build(self, configuration)
-     destination_workspace = path.join(r'W:\\GISServices\\test', "ForkliftTest.gdb")
+  def build(self, configuration):
+     destination_workspace = path.join(r'W:\\GISServices\\test', 'ForkliftTest.gdb')
      source_workspace = path.join(self.garage, 'Viewer_TrustPub@tla-gis.sde')
 
      self.add_crate('Contract_OilShale', {'source_workspace': source_workspace,
