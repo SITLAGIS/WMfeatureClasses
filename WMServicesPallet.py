@@ -20,6 +20,6 @@ class WMServicesPallet(Pallet):
      #destination_workspace = path.join(r'W:\\GISServices\\WebMercator', 'WebMercatorServices.gdb')
      source_workspace = path.join(self.garage, 'Viewer_TrustPub@tla-gis.sde')
 
-     self.add_crates(['Contract_Esmt','Contract_Grazing'.'Owner_Coal','Owner_OilGas','Owner_OtherMin',
+     self.add_crates(['Contract_Esmt','Contract_Grazing','Owner_Coal','Owner_OilGas','Owner_OtherMin',
                       'Owner_Surface','Trans_Completed'], {'source_workspace': source_workspace,
                               'destination_workspace': self.webmercservices})
