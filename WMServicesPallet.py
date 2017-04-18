@@ -12,7 +12,7 @@ class WMServicesPallet(Pallet):
                              ('plat/UT_SITLA_OtherMineralPlat', 'MapServer'),
                              ('plat/UT_SITLA_SurfacePlat', 'MapServer'),]
 
-     self.webmercservices = '\\tlwslms.utah.utad.state.ut.us\\map-share\\GISServices\\WebMercator\\WebMercatorServices.gdb'
+     self.webmercservices = '\\\\tlwslms.utah.utad.state.ut.us\\map-share\\GISServices\\WebMercator\\WebMercatorServices.gdb'
      #//HOST/share/path/to/file
 
      self.copy_data = [self.webmercservices]
